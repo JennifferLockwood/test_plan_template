@@ -96,23 +96,23 @@ by program, unit, module or build.
 
 Identify what software is to be tested and what the critical areas are, such 
 as: 
-
+<ol>
  <li>Delivery of a third party product.</li>
  <li>New version of interfacing software</li>
  <li>Ability to use and understand a new package/tool, etc.</li>
  <li>Extremely complex functions </li>
  <li>Modifications to components with a past history of failure</li>
  <li>Poorly documented modules or change requests</li>
-
+</ol>
 
 There are some inherent software risks such as complexity; these need to be 
 identified. 
-
+<ol>
  <li>Safety</li>
  <li>Multiple interfaces</li>
  <li>Impacts on Client</li>
  <li>Government regulations and rules</li>
-
+</ol>
 
 Another key area of risk is a misunderstanding of the original requirements. 
 This can occur at the management, user and developer levels. Be aware of vague 
