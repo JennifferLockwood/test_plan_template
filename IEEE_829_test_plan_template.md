@@ -50,13 +50,13 @@ management system. Do not duplicate the text from other documents as this will
 reduce the viability of this document and increase the maintenance effort. 
 Documents that can be referenced include: 
 
-<li>Project Plan</li>
-<li>Requirements specifications</li>
-<li>High Level design document</li>
-<li>Detail design document</li>
-<li>Development and Test process standards</li>
-<li>Methodology guidelines and examples</li>
-<li>Corporate standards and guidelines</li>
+<li>* Project Plan</li>
+<li>* Requirements specifications</li>
+<li>* High Level design document</li>
+<li>* Detail design document</li>
+<li>* Development and Test process standards</li>
+<li>* Methodology guidelines and examples</li>
+<li>* Corporate standards and guidelines</li>
 
 <h2><a id="3"></a>Introduction</h2>
 
@@ -97,21 +97,21 @@ by program, unit, module or build.
 Identify what software is to be tested and what the critical areas are, such 
 as: 
 <ol>
- <li>Delivery of a third party product.</li>
- <li>New version of interfacing software</li>
- <li>Ability to use and understand a new package/tool, etc.</li>
- <li>Extremely complex functions </li>
- <li>Modifications to components with a past history of failure</li>
- <li>Poorly documented modules or change requests</li>
+ <li>  i. Delivery of a third party product.</li>
+ <li> ii. New version of interfacing software</li>
+ <li>iii. Ability to use and understand a new package/tool, etc.</li>
+ <li> iv. Extremely complex functions </li>
+ <li>  v. Modifications to components with a past history of failure</li>
+ <li> vi. Poorly documented modules or change requests</li>
 </ol>
 
 There are some inherent software risks such as complexity; these need to be 
 identified. 
 <ol>
- <li>Safety</li>
- <li>Multiple interfaces</li>
- <li>Impacts on Client</li>
- <li>Government regulations and rules</li>
+ <li>  i. Safety</li>
+ <li> ii. Multiple interfaces</li>
+ <li>iii. Impacts on Client</li>
+ <li> iv. Government regulations and rules</li>
 </ol>
 
 Another key area of risk is a misunderstanding of the original requirements. 
@@ -128,7 +128,7 @@ defect ridden earlier, it will most likely continue to be defect prone.
 One good approach to define where the risks are is to have several 
 brainstorming sessions. 
 
-<li>Start with ideas, such as, what worries me about this 
+<li>* Start with ideas, such as, what worries me about this 
 project/application.</li>
 
 <h2><a id="6"></a>Features to be Tested</h2>
@@ -156,9 +156,9 @@ functions.
 Identify WHY the feature is not to be tested, there can be any number of 
 reasons. 
 
-<li>Not to be included in this release of the Software.</li>
-<li>Low risk, has been used before and is considered stable.</li>
-<li>Will be released but not tested or documented as a functional part of the 
+<li>* Not to be included in this release of the Software.</li>
+<li>* Low risk, has been used before and is considered stable.</li>
+<li>* Will be released but not tested or documented as a functional part of the 
 release of this version of the software.</li>
 
 
@@ -173,19 +173,19 @@ appropriate to the level of the plan (master, acceptance, etc.) and should be
 in agreement with all higher and lower levels of plans. Overall rules and 
 processes should be identified. 
 
-<li>Are any special tools to be used and what are they?</li>
-<li>Will the tool require special training?</li>
-<li>What metrics will be collected?</li>
-<li>Which level is each metric to be collected at?</li>
-<li>How is Configuration Management to be handled?</li>
-<li>How many different configurations will be tested?</li>
-<li>Hardware</li>
-<li>Software</li>
-<li>Combinations of HW, SW and other vendor packages</li>
-<li>What levels of regression testing will be done and how much at each test 
+<li>* Are any special tools to be used and what are they?</li>
+<li>* Will the tool require special training?</li>
+<li>* What metrics will be collected?</li>
+<li>* Which level is each metric to be collected at?</li>
+<li>* How is Configuration Management to be handled?</li>
+<li>* How many different configurations will be tested?</li>
+<li>* Hardware</li>
+<li>* Software</li>
+<li>* Combinations of HW, SW and other vendor packages</li>
+<li>* What levels of regression testing will be done and how much at each test 
 level?</li>
-<li>Will regression testing be based on severity of defects detected?</li>
-<li>How will elements in the requirements and design that do not make sense 
+<li>* Will regression testing be based on severity of defects detected?</li>
+<li>* How will elements in the requirements and design that do not make sense 
 or are untestable be processed?</li>
 
 
@@ -194,16 +194,16 @@ coverage requirements must also be identified.
 
 Specify if there are special requirements for the testing. 
 
-<li>Only the full component will be tested.</li>
-<li>A specified segment of grouping of features/components must be tested 
+<li>* Only the full component will be tested.</li>
+<li>* A specified segment of grouping of features/components must be tested 
 together.</li>
 
 
 Other information that may be useful in setting the approach are: 
 
-<li>MTBF, Mean Time Between Failures - if this is a valid measurement for the 
+<li>* MTBF, Mean Time Between Failures - if this is a valid measurement for the 
 test involved and if the data is available.</li>
-<li>SRE, Software Reliability Engineering - if this methodology is in use and 
+<li>* SRE, Software Reliability Engineering - if this methodology is in use and 
 if the information is available.</li>
 
 
@@ -213,16 +213,16 @@ How will meetings and other organizational processes be handled?
 What are the Completion criteria for this plan? This is a critical aspect of 
 any test plan and should be appropriate to the level of the plan. 
 
-<li>At the Unit test level this could be items such as:
- <li>All test cases completed.</li>
- <li>A specified percentage of cases completed with a percentage containing 
+<li>* At the Unit test level this could be items such as:
+ <li> - All test cases completed.</li>
+ <li> - A specified percentage of cases completed with a percentage containing 
  some number of minor defects.</li>
- <li>Code coverage tool indicates all code covered.</li>
+ <li> - Code coverage tool indicates all code covered.</li>
 
 </li>
-<li>At the Master test plan level this could be items such as:
- <li>All lower level plans completed.</li>
- <li>A specified number of plans completed without errors and a percentage 
+<li>* At the Master test plan level this could be items such as:
+ <li> - All lower level plans completed.</li>
+ <li> - A specified number of plans completed without errors and a percentage 
  with minor defects.</li>
 
 </li>
@@ -233,11 +233,11 @@ or it can be general functional requirements for higher level plans.
 
 What is the number and severity of defects located? 
 
-<li>Is it possible to compare this to the total number of defects? This may 
+<li>* Is it possible to compare this to the total number of defects? This may 
 be impossible, as some defects are never detected.
- <li>A defect is something that may cause a failure, and may be acceptable 
+ <li> - A defect is something that may cause a failure, and may be acceptable 
  to leave in the application.</li>
- <li>A failure is the result of a defect as seen by the User, the system 
+ <li> - A failure is the result of a defect as seen by the User, the system 
  crashes, etc.</li>
 
 </li>
@@ -246,7 +246,7 @@ be impossible, as some defects are never detected.
 
 Know when to pause in a series of tests. 
 
-<li>If the number or type of defects reaches a point where the follow on 
+<li>* If the number or type of defects reaches a point where the follow on 
 testing has no value, it makes no sense to continue the test; you are just 
 wasting resources.</li>
 
@@ -262,14 +262,14 @@ defects that were ignored.
 
 What is to be delivered as part of this plan? 
 
-<li>Test plan document.</li>
-<li>Test cases.</li>
-<li>Test design specifications.</li>
-<li>Tools and their outputs.</li>
-<li>Simulators.</li>
-<li>Static and dynamic generators.</li>
-<li>Error logs and execution logs.</li>
-<li>Problem reports and corrective actions.</li>
+<li>* Test plan document.</li>
+<li>* Test cases.</li>
+<li>* Test design specifications.</li>
+<li>* Tools and their outputs.</li>
+<li>* Simulators.</li>
+<li>* Static and dynamic generators.</li>
+<li>* Error logs and execution logs.</li>
+<li>* Problem reports and corrective actions.</li>
 
 
 One thing that is not a test deliverable is the software itself that is 
@@ -295,13 +295,13 @@ external groups.
 
 Are there any special requirements for this test plan, such as: 
 
-<li>Special hardware such as simulators, static generators etc.</li>
-<li>How will test data be provided. Are there special collection requirements 
+<li>* Special hardware such as simulators, static generators etc.</li>
+<li>* How will test data be provided. Are there special collection requirements 
 or specific ranges of data that must be provided?</li>
-<li>How much testing will be done on each component of a multi-part feature?</li>
-<li>Special power requirements.</li>
-<li>Specific versions of other supporting software.</li>
-<li>Restricted use of the system during testing.</li>
+<li>* How much testing will be done on each component of a multi-part feature?</li>
+<li>* Special power requirements.</li>
+<li>* Specific versions of other supporting software.</li>
+<li>* Restricted use of the system during testing.</li>
 
 <h2><a id="14"></a>Staffing and Training needs</h2>
 
@@ -317,14 +317,14 @@ Who is in charge?
 
 This issue includes all areas of the plan. Here are some examples: 
 
-<li>Setting risks.</li>
-<li>Selecting features to be tested and not tested.</li>
-<li>Setting overall strategy for this level of plan.</li>
-<li>Ensuring all required elements are in place for testing.</li>
-<li>Providing for resolution of scheduling conflicts, especially, if testing 
+<li>* Setting risks.</li>
+<li>* Selecting features to be tested and not tested.</li>
+<li>* Setting overall strategy for this level of plan.</li>
+<li>* Ensuring all required elements are in place for testing.</li>
+<li>* Providing for resolution of scheduling conflicts, especially, if testing 
 is done on the production system.</li>
-<li>Who provides the required training?</li>
-<li>Who makes the critical go/no go decisions for items not covered in the 
+<li>* Who provides the required training?</li>
+<li>* Who makes the critical go/no go decisions for items not covered in the 
 test plans?</li>
 
 <h2><a id="16"></a>Schedule</h2>
@@ -333,7 +333,7 @@ Should be based on realistic and validated estimates. If the estimates for
 the development of the application are inaccurate, the entire project plan will 
 slip and the testing is part of the overall project plan. 
 
-<li>As we all know, the first area of a project plan to get cut when it comes 
+<li>* As we all know, the first area of a project plan to get cut when it comes 
 to crunch time at the end of a project is the testing. It usually comes down 
 to the decision, ‘Let’s put something out even if it does not really work all 
 that well’. And, as we all know, this is usually the worst possible decision.</li>
@@ -342,11 +342,11 @@ that well’. And, as we all know, this is usually the worst possible decision.</l
 How slippage in the schedule will to be handled should also be addressed 
 here. 
 
-<li>If the users know in advance that a slippage in the development will 
+<li>* If the users know in advance that a slippage in the development will 
 cause a slippage in the test and the overall delivery of the system, they 
 just may be a little more tolerant, if they know it’s in their interest to 
 get a better tested application.</li>
-<li>By spelling out the effects here you have a chance to discuss them in 
+<li>* By spelling out the effects here you have a chance to discuss them in 
 advance of their actual occurrence. You may even get the users to agree to a 
 few defects in advance, if the schedule slips.</li>
 
@@ -367,33 +367,33 @@ specific date. This is called dependent or relative dating.
 What are the overall risks to the project with an emphasis on the testing 
 process? 
 
-<li>Lack of personnel resources when testing is to begin.</li>
-<li>Lack of availability of required hardware, software, data or tools.</li>
-<li>Late delivery of the software, hardware or tools.</li>
-<li>Delays in training on the application and/or tools.</li>
-<li>Changes to the original requirements or designs.</li>
+<li>* Lack of personnel resources when testing is to begin.</li>
+<li>* Lack of availability of required hardware, software, data or tools.</li>
+<li>* Late delivery of the software, hardware or tools.</li>
+<li>* Delays in training on the application and/or tools.</li>
+<li>* Changes to the original requirements or designs.</li>
 
 
 Specify what will be done for various events, for example:
 
-Requirements definition will be complete by January 1, 19XX, and, if the 
+* Requirements definition will be complete by January 1, 19XX, and, if the 
 requirements change after that date, the following actions will be taken: 
 
-<li>The test schedule and development schedule will move out an appropriate 
+<li>  - The test schedule and development schedule will move out an appropriate 
 number of days. This rarely occurs, as most projects tend to have fixed 
 delivery dates.</li>
-<li>The number of test performed will be reduced.</li>
-<li>The number of acceptable defects will be increased.
- <li>These two items could lower the overall quality of the delivered 
+<li>  - The number of test performed will be reduced.</li>
+<li>  - The number of acceptable defects will be increased.
+<li>    - These two items could lower the overall quality of the delivered 
  product.</li>
 
 </li>
-<li>Resources will be added to the test team.</li>
-<li>The test team will work overtime (this could affect team morale).</li>
-<li>The scope of the plan may be changed.</li>
-<li>There may be some optimization of resources. This should be avoided, if 
+<li>  - Resources will be added to the test team.</li>
+<li>  - The test team will work overtime (this could affect team morale).</li>
+<li>  - The scope of the plan may be changed.</li>
+<li>  - There may be some optimization of resources. This should be avoided, if 
 possible, for obvious reasons.</li>
-<li>You could just QUIT. A rather extreme option to say the least.</li>
+<li>  - You could just QUIT. A rather extreme option to say the least.</li>
 
 
 Management is usually reluctant to accept scenarios such as the one above 
@@ -411,15 +411,15 @@ At the master test plan level, this may be all involved parties.
 
 When determining the approval process, keep in mind who the audience is: 
 
-<li>The audience for a unit test level plan is different than that of an 
+<li>* The audience for a unit test level plan is different than that of an 
 integration, system or master level plan.</li>
-<li>The levels and type of knowledge at the various levels will be different 
+<li>* The levels and type of knowledge at the various levels will be different 
 as well.</li>
-<li>Programmers are very technical but may not have a clear understanding of 
+<li>* Programmers are very technical but may not have a clear understanding of 
 the overall business process driving the project.</li>
-<li>Users may have varying levels of business acumen and very little 
+<li>* Users may have varying levels of business acumen and very little 
 technical skills.</li>
-<li>Always be wary of users who claim high levels of technical skills and 
+<li>* Always be wary of users who claim high levels of technical skills and 
 programmers that claim to fully understand the business process. These types 
 of individuals can cause more harm than good if they do not have the skills 
 they believe they possess.</li>
