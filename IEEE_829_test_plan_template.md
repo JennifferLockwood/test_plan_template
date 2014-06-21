@@ -97,21 +97,21 @@ by program, unit, module or build.
 Identify what software is to be tested and what the critical areas are, such 
 as: 
 
-   i. Delivery of a third party product.
-  ii. New version of interfacing software
- iii. Ability to use and understand a new package/tool, etc.
-  iv. Extremely complex functions 
-   v. Modifications to components with a past history of failure
-  vi. Poorly documented modules or change requests
+1. Delivery of a third party product.
+2. New version of interfacing software
+3. Ability to use and understand a new package/tool, etc.
+4. Extremely complex functions 
+5. Modifications to components with a past history of failure
+6. Poorly documented modules or change requests
 
 
 There are some inherent software risks such as complexity; these need to be 
 identified. 
 
-   i. Safety
-  ii. Multiple interfaces
- iii. Impacts on Client
-  iv. Government regulations and rules
+1. Safety
+2. Multiple interfaces
+3. Impacts on Client
+4. Government regulations and rules
 
 
 Another key area of risk is a misunderstanding of the original requirements. 
@@ -144,7 +144,7 @@ User. You should be prepared to discuss why a particular level was chosen.
 It should be noted that Section 4 and Section 6 are very similar. The only 
 true difference is the point of view. Section 4 is a technical type description 
 including version numbers and other technical information and Section 6 is from 
-the User’s viewpoint. Users do not understand technical software terminology; 
+the Userâ€™s viewpoint. Users do not understand technical software terminology; 
 they understand functions and processes as they relate to their jobs.
 <h2><a id="7"></a>Features not to be Tested</h2>
 
@@ -335,8 +335,8 @@ slip and the testing is part of the overall project plan.
 
 * As we all know, the first area of a project plan to get cut when it comes 
 to crunch time at the end of a project is the testing. It usually comes down 
-to the decision, ‘Let’s put something out even if it does not really work all 
-that well’. And, as we all know, this is usually the worst possible decision.
+to the decision, â€˜Letâ€™s put something out even if it does not really work all 
+that wellâ€™. And, as we all know, this is usually the worst possible decision.
 
 
 How slippage in the schedule will to be handled should also be addressed 
@@ -344,7 +344,7 @@ here.
 
 * If the users know in advance that a slippage in the development will 
 cause a slippage in the test and the overall delivery of the system, they 
-just may be a little more tolerant, if they know it’s in their interest to 
+just may be a little more tolerant, if they know itâ€™s in their interest to 
 get a better tested application.
 * By spelling out the effects here you have a chance to discuss them in 
 advance of their actual occurrence. You may even get the users to agree to a 
@@ -360,7 +360,7 @@ It is always best to tie all test dates directly to their related
 development activity dates. This prevents the test team from being perceived as 
 the cause of a delay. For example, if system testing is to begin after delivery 
 of the final build, then system testing begins the day after delivery. If the 
-delivery is late, system testing starts from the day of delivery, not on a 
+delivery is late, system testing starts from the day of deliver y, not on a 
 specific date. This is called dependent or relative dating.
 <h2><a id="17"></a>Planning Risks and Contingencies</h2>
 
@@ -386,8 +386,6 @@ delivery dates.
   - The number of acceptable defects will be increased.
     - These two items could lower the overall quality of the delivered 
  product.
-
-
   - Resources will be added to the test team.
   - The test team will work overtime (this could affect team morale).
   - The scope of the plan may be changed.
